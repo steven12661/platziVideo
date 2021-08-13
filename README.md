@@ -1,1 +1,1 @@
-# platziVideo
+# smash-bros-characters
