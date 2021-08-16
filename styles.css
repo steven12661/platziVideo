@@ -96,7 +96,7 @@ body {
 
 .carousel{
     width: 100%;
-    overflow: scroll hidden;
+    overflow: scroll;
     padding: 30px;
     position: relative;
 }
@@ -117,8 +117,10 @@ body {
     cursor: pointer;
     transition: 450ms all;
     transform-origin: center left;
+    position: relative;
+
 }
-.carousel-item:hover ~ carousel-item{
+.carousel-item:hover ~ .carousel-item{
   transform: translate3d(100px,0,0);
 }
 .carousel__container:hover .carousel-item{
